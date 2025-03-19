@@ -1,0 +1,23 @@
+body{
+    height: 900px;
+    width: 900px;
+    
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 20px;
+   
+
+ 
+
+}
+h1{height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    top: 60px;
+}
